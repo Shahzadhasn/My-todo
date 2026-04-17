@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Todo App (Next.js + Framer Motion)
 
-## Getting Started
+A simple yet modern Todo application built with Next.js and Framer Motion, featuring smooth animations and drag-and-drop task management.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- ➕ Add new todos
+- 🗑️ Delete todos
+- 🎯 Mark tasks as organized (optional if you added)
+- 🖱️ Drag & reorder tasks using Framer Motion
+- ✨ Smooth animations for better UX
+- 📱 Responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js (React Framework)
+- React.js
+- Framer Motion
+- Tailwind CSS (if you're using it)
+
+---
+
+## 📦 Installation
+
+Clone the repository:
 
 ```bash
+git clone https://github.com/your-username/todo-app.git
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+App will run at:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+🎮 Usage
+Type a task in the input field
+Click add to insert it into the list
+Drag tasks up/down to reorder them
+Remove tasks when completed
+🎥 Highlight Feature
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses Framer Motion drag controls to allow smooth and interactive task reordering, making the UI feel modern and dynamic.
 
-## Learn More
+📸 Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+<img width="1366" height="614" alt="image" src="https://github.com/user-attachments/assets/96ac6f96-9de6-4ea1-815d-700b3c433c2b" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📌 Future Improvements
+Local storage support
+Edit tasks feature
+Categories / filters
+Dark mode toggle
+Backend integration
+👨‍💻 Author
 
-## Deploy on Vercel
+Built by [Your Name]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+⭐ Show Support
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you like this project, give it a ⭐ on GitHub!
