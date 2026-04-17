@@ -64,7 +64,7 @@ Dark mode toggle
 Backend integration
 👨‍💻 Author
 
-Built by [Your Name]
+Shahzad Hassan
 
 ⭐ Show Support
 
